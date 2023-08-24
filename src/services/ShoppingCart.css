@@ -1,0 +1,84 @@
+  
+  .shopping-page-title {
+    background-color: #333;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .burger-card, .fries-card, .drinks-card {
+    display: flex;
+    background-color: #f5f5f5 ;
+    border: 1px solid #b6da03;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .burger-card button, .fries-card button, .drinks-card button {
+    background-color: #b6da03;
+    font-size: 15px;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .burger-card button:hover{
+    background-color: #333;
+    color: white;
+  }
+  .shopping-card-buttons{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: #f5f5f5 ;
+    margin: 0 auto;
+  }
+
+  .shopping-card-buttons button{
+    text-decoration: none;
+    width: 150px;
+    font-weight: bold;
+    font-size: 12px;
+    background: #b6da03;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .burger-image {
+    margin-right: 10px;
+  }
+  
+  .burger-container input{
+    width: 25px;
+  }
+  
+  .burger-container, .fries-container, .drinks-container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .burger-container h4, .fries-container h4, .drinks-container h4 {
+    margin: 5px;
+  }
+  
+  .burger-container p, .fries-container p, .drinks-container p {
+    margin: 0;
+  }
+  
+  @media (max-width: 1000px) {
+    .shopping-cart {
+      margin: 10px;
+      padding: 5px;
+    }
+    .shopping-card-buttons {
+      width: 100%;
+    }
+    .burger-container, .fries-container, .drinks-container {
+      width: 100%;
+    }
+  }
